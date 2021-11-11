@@ -2,3 +2,110 @@ body{
     margin: 0;
     padding: 0;
 }
+/* menu bar */
+nav{
+    display: flex;
+    justify-content: space-around;
+    background: teal;
+} 
+ul li{
+    list-style-type: none;
+    margin-top: 13px; 
+    float: right;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul li a{
+    font-family: 'Mochiy Pop One', sans-serif;
+    padding: 0px 15px;
+    font-size: 20px;
+}
+nav img{
+    width: 200px;
+}
+ul li a:hover{
+    color: springgreen;
+}
+/* respnsive for laptop */
+@media screen and (min-width:1024px) {
+    
+    .container-h{
+        display: flex;
+    }
+    .container-h img{
+        background: none;
+        bottom: 70px;
+        position: relative;
+        height: 80vh;
+    }
+    .my-name{
+        color: rgb(68, 212, 39);
+        font-weight: bold;
+        font-family: 'Fruktur', cursive;
+    }
+    .text-h p{
+        font-family: 'Patrick Hand', cursive;
+        font-size: 20px;
+    }
+    .image-h img{
+        height: 200px;
+        width: 300px;
+        margin-top: 60px;
+    }
+}
+/* ////////////////// */
+/* footer */
+.footer-icons{
+    font-size: 50px;
+    padding: 5px  10px;
+}
+footer{
+    background: teal;
+    display: flex;
+    justify-content: space-around;
+}
+.text-footer{
+        font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 20px;
+}
+.footer-icons:hover{
+    color: orange;
+    cursor: pointer;
+}
+/* footer */
+
+
+/* responsive menu for phone */
+@media (max-width:1023px) {
+    .container-h .text-h p{
+        font-family: 'Patrick Hand', cursive;
+    }
+    .image-h{
+        display: grid;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .image-h img{
+        width: 400px;
+    }
+    footer{
+        display: grid;
+    }
+    .footer-icons{
+        margin-left: 20px;
+    }
+}
+
+/* for taplet */
+/* @media (max-width:768px) {
+    .container-h img .my-pic{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #000;
+    }
+} */
