@@ -333,6 +333,23 @@ footer{
         font-family: 'Mochiy Pop One', sans-serif;
 
     }
-    
+    .btn-about{
+        width: 30%;
+        background: teal;
+        padding: 10px;
+        border: none;
+        border-radius: 10px 5px;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+    .btn-about a{
+        text-decoration: none;
+        color: white;
+    }
+    .btn-about:hover{
+        background: orange;
+    }
     
 }
