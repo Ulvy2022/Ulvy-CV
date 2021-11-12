@@ -70,7 +70,9 @@ ul li a:hover{
 @media (min-width:601px) and (max-width:900px) {
     
     .container-h{
-        display: flex;
+        display: grid;
+        justify-content: center;
+        align-items: center;
     }
     .my-pic{
         height: 40vh;
@@ -80,7 +82,9 @@ ul li a:hover{
     }
     .text-h p{
         font-family: 'Patrick Hand', cursive; 
+        width: 95%;
     }
+
     .text-h img{
         display: grid;
     }
@@ -91,6 +95,8 @@ ul li a:hover{
     }
     .image-h img{
         width: 50vh;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        margin-top: 20px;
     }
     .dw-full{
         width: 100%;
@@ -99,8 +105,8 @@ ul li a:hover{
         justify-content: center;
         align-items: center;
     }
-    .dw{
-        width: 30%;
+    .dw {
+        width: 20%;
     }
     nav{
         display: grid;
@@ -120,9 +126,7 @@ ul li a:hover{
         justify-content: center;
         align-items: center;
     }
-    .my-pic{
-        height: 10vh;
-    }
+
     
     
 }
@@ -156,9 +160,6 @@ footer{
     .text-h{
         margin: 0 auto;
         width: 98%;
-        display: grid;
-    }
-    nav{
         display: grid;
     }
     .menu-img1{
@@ -211,15 +212,15 @@ footer{
         justify-content: center;
         align-items: center;
     }
-    nav {
+    /* nav{
+        width: 100%;
         display: grid;
-    }
-    nav ul li{
+    } */
+    /* nav ul li{
         display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 50px;
-    }
+        margin-right: 30px;
+        background: #000;
+    } */
 }
 
 /* about me page */
