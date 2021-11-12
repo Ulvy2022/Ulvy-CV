@@ -111,8 +111,9 @@ ul li a:hover{
     nav{
         display: grid;
     }
-    nav ul {
-        display: grid;
+    nav ul li a{
+        margin: 0 10px;
+        font-size: 25px;
     }
     .fot{
         display: grid;
@@ -163,8 +164,7 @@ footer{
         display: grid;
     }
     .menu-img1{
-        margin: 0 auto;
-        
+        margin: 0 auto;    
     }
     .full-icons{
         margin: 0 auto;
@@ -212,15 +212,10 @@ footer{
         justify-content: center;
         align-items: center;
     }
-    /* nav{
-        width: 100%;
+    nav ul li{
         display: grid;
-    } */
-    /* nav ul li{
-        display: flex;
-        margin-right: 30px;
-        background: #000;
-    } */
+    }
+
 }
 
 /* about me page */
