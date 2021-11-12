@@ -53,7 +53,7 @@ ul li a:hover{
 }
 
 /* responsive for laptop */
-@media (min-width:769px)  {
+@media (min-width:901px)  {
     .container-h{
         display: flex;
     }
@@ -62,7 +62,25 @@ ul li a:hover{
     }
     .image-h{
         display: flex;
+        gap: 10px;
+
+        
     }
+    .image-h img{
+        height: 30vh;
+        width: 35vh;
+    }
+    .text-h p{
+        width: 80%;
+    }
+    .my-pic{
+        height: 60vh;
+        width: 60vh;
+    }
+    .dw{
+        width: 30%;
+    }
+    
 }
 
 
