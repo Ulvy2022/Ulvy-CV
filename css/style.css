@@ -70,12 +70,17 @@ ul li a:hover{
 @media (max-width:900px) {
     
     .container-h{
-        width: 60%;
+        width: 100%;
         margin: 0 auto;
         
     }
-    .container-h .mp, .text-h{
-        margin: 0 auto;
+    .mp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-h  {
+        text-align: center;
     }
     .my-pic{
         height: 40vh;
@@ -85,7 +90,6 @@ ul li a:hover{
     }
     .text-h p{
         font-family: 'Patrick Hand', cursive; 
-        width: 95%;
     }
 
     .text-h img{
@@ -130,7 +134,15 @@ ul li a:hover{
         justify-content: center;
         align-items: center;
     }
-
+    .image-h{
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .dw{
+        width: 30%;
+    }
     
     
 }
