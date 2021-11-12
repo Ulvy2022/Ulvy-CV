@@ -244,7 +244,6 @@ footer{
 .container-a{
     display: flex;
     width: 70%;
-    margin-bottom: 10px;
     justify-content: center;
     text-align: center;
     margin: 0 auto;
@@ -281,8 +280,6 @@ footer{
 .right-sr{
     width: 54%;
     margin-left: 10vh;
-    /* background: rgb(31, 175, 219); */
-    /* margin-left: 5px; */
     border-radius: 10px 5px;
 }
 .photo img,video{
@@ -291,4 +288,29 @@ footer{
 .describe-myself{
     font-family: 'Patrick Hand', cursive;
     font-size: 20px;
+}
+/* /////// */
+/* /////// */
+/* for phone */
+@media (max-width:600px) {
+    nav{
+        display: grid;
+    }
+    nav ul li a{
+        margin: 0 10px;
+        font-size: 25px;
+    }
+    .fot{
+        display: grid;
+    }
+    .full-icons{
+        margin: 0 auto;
+    }
+    .menu-img1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
 }
