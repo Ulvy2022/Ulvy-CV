@@ -67,6 +67,10 @@ ul li a:hover{
         width: 20%;
         margin-left: 20vh;
     }
+    .image-h img{
+        height: 40vh;
+        width: 40vh;
+    }
 }
 
 
@@ -297,20 +301,38 @@ footer{
         display: grid;
     }
     nav ul li a{
-        margin: 0 10px;
         font-size: 25px;
     }
-    .fot{
-        display: grid;
-    }
-    .full-icons{
-        margin: 0 auto;
-    }
+   
     .menu-img1{
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+    .container-a{
+        width: 100%;
+        display: grid;
+        
+    }
+    .container-a .left-sl {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .container-a .right-sr {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .photo img{
+        width: 39vh;
+    }
+    .photo video{
+        width: 39vh;
+    }
+    .header-a{
+        font-family: 'Mochiy Pop One', sans-serif;
+
+    }
+    
     
 }
