@@ -57,30 +57,16 @@ ul li a:hover{
     .container-h{
         display: flex;
     }
+    .text-h{
+        margin-top: 15vh;
+    }
     .text-h p{
         font-family: 'Patrick Hand', cursive; 
     }
-    .image-h{
-        display: flex;
-        gap: 10px;
-
-        
-    }
-    .image-h img{
-        height: 30vh;
-        width: 35vh;
-    }
-    .text-h p{
-        width: 80%;
-    }
-    .my-pic{
-        height: 60vh;
-        width: 60vh;
-    }
     .dw{
-        width: 30%;
+        width: 20%;
+        margin-left: 20vh;
     }
-    
 }
 
 
