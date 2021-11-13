@@ -693,7 +693,7 @@ footer{
 /* ///// */
 /* ///// */
 /* ///// */
-@media (max-width:600px) {
+@media (max-width:600px){
     .container-c{
         display: grid;
         grid-template-columns: 1fr;
@@ -703,6 +703,13 @@ footer{
         border: none;
     }
     .form{
-        width: 97%;
+        width: 100%;
     }
+    textarea{
+        width: 100%;
+    }
+    .text-loa{
+        width: 100%;
+    }
+    
 }
