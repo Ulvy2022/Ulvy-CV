@@ -354,6 +354,8 @@ footer{
     }
     
 }
+
+/* for taplet */
 @media (max-width:900px) {
     .container-a{
         display: grid;
@@ -361,7 +363,6 @@ footer{
     }
     .photo{
         display: grid;
-        margin: 0 auto;
     }
     nav a img{
         margin: 0 auto;
@@ -384,6 +385,9 @@ footer{
     }
     .right-sr{
         display: grid;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
         
     }
     .right-sr .header-a{
@@ -398,8 +402,10 @@ footer{
         position: relative;
     }
     .photo img{
-        width: 4
-        50vh;
+        width: 80vh;
+    }
+    .photo video{
+        width: 80vh;
     }
     .btn-about{
         width: 100%;
@@ -420,6 +426,9 @@ footer{
     }
     footer{
         display: grid;
+    }
+    .btn-about a:hover{
+        background: orange;
     }
 
 }
@@ -483,6 +492,217 @@ footer{
     nav ul li a{
         font-size: 30px;
     }
+    .btn-about a:hover{
+        background: orange;
+    }
     
+}
+
+/* contact page */
+/* //////// */
+/* //////// */
+/* //////// */
+@media (min-width:901px) {
+    .banner{
+        margin-top: 30px;
+        width: 97%;
+        margin: 0 auto;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .full-contact{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .container-c{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        width: 95%;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        gap: 10px;
+    }
+    .form-checkbox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact{
+        padding: 9px 0;
+        width: 40%;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .call-me{
+        width: 40%;
+        text-align: center;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        /* padding: 5px 0; */
+    }
+    .full-form{
+        padding: 10px;
+        border: none;
+        border-bottom: orange 1px solid;
+        background: none;
+        width: 90%;
+    }
+    ::placeholder{
+        color: black;
+    }
+    .form p{
+        color: teal;
+    }
+    .phone{
+        text-align: center;
+    }
+    textarea{
+        border: orange 1px solid;
+        width: 98%;
+        height: 20vh;
+        
+    }
+    .full-contact p{
+        color: teal;
+    }
+    .number p{
+        margin-left: 10px;
+        color: orange;
+    }
+    .loa {
+        color: teal;
+    }
+    .text-loa{
+        color: orange;
+    }
+    footer{
+        width: 100%;
+        margin-top: 70px;
+    }
+    .form p{
+        color: orange;
+    }
+   
+}
+/* for taplet */
+/* //// */
+/* //// */
+@media (max-width:900px) {
+    .container-c{
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    nav{
+        display: grid;
+    }
+    footer{
+        display: grid;
+    }
+    .contact{
+        border-right: 2px black solid;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .full-contact p{
+        color: teal;
+    }
+    .number p{
+        margin-left: 10px;
+        color: orange;
+    }
+    .loa {
+        color: teal;
+    }
+    .text-loa{
+        color: orange;
+    }
+    .call-me{
+        display: grid;
+        
+    }
+    .full-contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .call-me{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .phone{
+        text-align: center;
+        font-size: 25px;
+        color: teal;
+    }
+    .location{
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+    .current-location{
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .loa{
+        font-size: 25px;
+    }
+    .name-simcard p{
+        color: teal;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+    textarea{
+        
+        height: 20vh;
+        width: 50vh;
+        border: none;
+        border-bottom: orange 1px solid;
+        border-radius: 10px 5px;
+        border-left: 1px orange solid;
+        border-right: 1px orange solid;
+    }
+    .form .full-form{
+        width: 100%;
+        padding: 15px;
+        border-radius: 10px;
+        border: none;
+        border-bottom: 1px orange solid;
+    }
+    .map iframe{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .form p{
+        font-size: 25px;
+        color: teal;
+    }
+    .form-checkbox{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: teal;
+    }
     
+} 
+/* for phone */
+/* ///// */
+/* ///// */
+/* ///// */
+@media (max-width:600px) {
+    .container-c{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .contact{
+        /* background: #000; */
+        border: none;
+    }
+    .form{
+        width: 97%;
+    }
 }
