@@ -358,6 +358,10 @@ footer{
         display: grid;
         width: 95%;
     }
+    .photo{
+        display: grid;
+        margin: 0 auto;
+    }
     nav a img{
         margin: 0 auto;
         width: 100%;
@@ -378,19 +382,23 @@ footer{
 
     }
     .right-sr{
-        width: 100%;
         display: grid;
-        justify-content: center;
-        align-items: center;
+        
     }
-    .right-sr .photo{
-        width: 100%;
-        background: #000;
+    .right-sr .header-a{
+        color: orange;
+        display: flex;
         justify-content: center;
         align-items: center;
+        width: 100%;
+        font-size: 30px;
+    }
+    .header-a .photo{
+        position: relative;
     }
     .photo img{
-        width: 40vh;
+        width: 4
+        50vh;
     }
     .btn-about{
         width: 100%;
