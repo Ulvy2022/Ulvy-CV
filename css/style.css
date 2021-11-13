@@ -634,7 +634,7 @@ footer{
 /* for taplet */
 /* //// */
 /* //// */
-@media (max-width:900px) {
+@media screen and (max-width:900px) and (min-width:601px) {
     .container-c{
         margin-top: 10px;
         display: grid;
@@ -742,9 +742,10 @@ footer{
     .container-c{
         display: grid;
         grid-template-columns: 1fr;
+        width: 98%;
+        margin: 0 auto;
     }
     .contact{
-        /* background: #000; */
         border: none;
     }
     .form{
@@ -753,8 +754,54 @@ footer{
     textarea{
         width: 100%;
     }
-    .text-loa{
+    nav{
         width: 100%;
+    }
+    .contact{
+        border-bottom: 2px solid rgb(0, 0, 0);
+        width: 90%;       
+    }
+    textarea{
+        text-align: center;
+        width: 90%;
+        border: none;
+        border-bottom: 1px solid orange;
+        border-radius: 10px;
+    }
+    .full-contact{
+        display: flex;
+        font-size: 20px;
+    }
+    .number{
+        margin-left: 8px;
+    }
+    .full-form{
+        border: none;
+        border-bottom: 1px orange solid;
+        border-radius: 10px;
+        width: 90%;
+    }
+    .text-loa{
+        width: 90%;
+        font-size: 15px;
+        color: orange;
+    }
+    .loa{
+        font-size: 25px;
+        color: teal;
+    }
+    .phone{
+        font-size: 25px;
+        color: teal;
+    }
+    .form p{
+        color: orange;
+    }
+    .number{
+        color: orange;
+    }
+    .name-simcard {
+        color: teal;
     }
     
 }
